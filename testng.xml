@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Job Application Process">
+    <test verbose="2" preserve-order="true" name="C:\Users\Themba.Masemula\IdeaProjects\Assessment_read_write">
+
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="IlabURL" value="https://www.ilabquality.com/"/>
+        <parameter name="dataStore_param" value="sql"/>
+        <classes>
+            <class name="WebTests.JobApplicationTest">
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
